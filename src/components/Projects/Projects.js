@@ -21,19 +21,20 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pepperfry}
-              isBlog={false}
+              isBlog={true}
               title="Pepper Fry Clone"
               description="A web application to book your trips where you can also rent a car."
-              link="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
-            />
+              gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
+              demolink="https://rainbow-crostata-a77d7d.netlify.app/"            />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={orbitz}
-              isBlog={false}
+              isBlog={true}
               title="Orbitz Clone"
               description="A web application to buy furniture and home decor."
-              link="https://github.com/harshadajagtap25/Orbitz"
+              gitlink="https://github.com/harshadajagtap25/Orbitz"
+              demolink="https://elegant-agnesi-f6525b.netlify.app/"
             />
           </Col>
 
