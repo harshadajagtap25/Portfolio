@@ -40,9 +40,9 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
+          // onClick={() => {
+          //   updateExpanded(expand ? false : "expanded");
+          // }}
         >
           <span></span>
           <span></span>
