@@ -34,15 +34,8 @@ function Home2() {
                 <b className="purple">Web Applications </b>
               </i>{" "}
                that will improve everyday experience for people{" "}
-<<<<<<< HEAD
               
-=======
-              {/* <i>
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i> */}
->>>>>>> ccb7b85f681df07515db088ff443d7f3c436c3d8
+              
               <br />
               <br />
               

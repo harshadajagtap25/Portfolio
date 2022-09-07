@@ -35,12 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-<<<<<<< HEAD
           <h5 className="img-fluid logo">HJ</h5>
-=======
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <h6 className="img-fluid logo">HJ</h6>
->>>>>>> ccb7b85f681df07515db088ff443d7f3c436c3d8
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -102,11 +97,6 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
-<<<<<<< HEAD
-=======
-
-            
->>>>>>> ccb7b85f681df07515db088ff443d7f3c436c3d8
           </Nav>
         </Navbar.Collapse>
       </Container>
