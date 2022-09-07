@@ -21,24 +21,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pepperfry}
+              imgPath={orbitz}
               isBlog={true}
-              title="Pepper Fry Clone"
-              description="A web application to book your trips where you can also rent a car."
-              gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
-              demolink="https://rainbow-crostata-a77d7d.netlify.app/"
+              title="Orbitz Clone"
+              description="A web application to book your trips where you can also rent a car, 
+              choose a mode of travel, reserve your stay prior."
+              gitlink="https://github.com/harshadajagtap25/Orbitz"
+              demolink="https://orbitz-clone-1.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={orbitz}
+              imgPath={pepperfry}
               isBlog={true}
-              title="Orbitz Clone"
-              description="A web application to buy furniture and home decor."
-              gitlink="https://github.com/harshadajagtap25/Orbitz"
-              demolink="https://elegant-agnesi-f6525b.netlify.app/"
+              title="Pepper Fry Clone"
+              description="A web application to buy furniture and home decor"
+              gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
+              demolink="https://pepper-fry-clone.vercel.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lumen}
@@ -54,9 +56,10 @@ function Projects() {
               imgPath={timecamp}
               isBlog={true}
               title="Timecamp Clone"
-              description="A web application to track the activity of computer users."
+              description="It is a time tracking software to invoice the employees's 
+              work based on an hourly rate, measuring the work effectiveness and project management."
               gitlink="https://github.com/harshadajagtap25/Timecamp-Clone"
-              demolink="https://sensitive-thunder-3176.vercel.app/"
+              demolink="https://clone-of-timecamp.vercel.app/"
             />
           </Col>
         </Row>

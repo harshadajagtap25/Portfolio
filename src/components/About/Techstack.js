@@ -6,7 +6,6 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
 } from "react-icons/di";
 
@@ -27,6 +26,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
     </Row>
   );

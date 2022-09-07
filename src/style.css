@@ -309,6 +309,9 @@ button:focus {
   justify-content: center !important;
   padding-top: 9em !important;
 }
+.avatarImg {
+  border-radius: 50%;
+}
 
 @media (max-width: 767px) {
   .myAvtar {
@@ -720,7 +723,3 @@ button:focus {
     transform: scale(1);
   }
 }
-
-
-
-
