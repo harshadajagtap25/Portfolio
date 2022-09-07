@@ -4,8 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pepperfry from '../../Assets/Projects/PepperfryHeader.png'
 import orbitz from "../../Assets/Projects/OrbitzHeader.png";
+<<<<<<< HEAD
 import lumen from "../../Assets/Projects/Lumen5Homepage.png";
 import timecamp from "../../Assets/Projects/TimecampHomepage.png";
+=======
+>>>>>>> ccb7b85f681df07515db088ff443d7f3c436c3d8
 
 
 function Projects() {
@@ -37,6 +40,7 @@ function Projects() {
               description="A web application to buy furniture and home decor."
               gitlink="https://github.com/harshadajagtap25/Orbitz"
               demolink="https://elegant-agnesi-f6525b.netlify.app/"
+<<<<<<< HEAD
             />
           </Col>
           <Col md={4} className="project-card">
@@ -57,6 +61,8 @@ function Projects() {
               description="A web application to track the activity of computer users."
               gitlink="https://github.com/harshadajagtap25/Timecamp-Clone"
               demolink="https://sensitive-thunder-3176.vercel.app/"
+=======
+>>>>>>> ccb7b85f681df07515db088ff443d7f3c436c3d8
             />
           </Col>
 
