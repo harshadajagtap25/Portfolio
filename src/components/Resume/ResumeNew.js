@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf1 from "../../Assets/../Assets/Harshada_Jagtap_Resume.pdf";
+import pdf from "../../Assets/../Assets/Harshada_Jagtap_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLinkHarshada =
-  "https://github.com/harshadajagtap25/Portfolio/blob/master/src/Assets/Harshada_Jagtap_Resume.pdf";
+  "https://raw.githubusercontent.com/harshadajagtap25/portfolio/master/src/Assets/Harshada_Jagtap_Resume.pdf";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -24,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf1}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -45,7 +45,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf1}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
