@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Harshada Jagtap </span>
             from <span className="purple"> Maharashtra, India.</span> I'm a
             computer Engineer. I was always excited to build a career in coding,
-            I try to learn programming languages. Worked through 1000+ hours of
+            I tries to learn programming languages. Worked through 1000+ hours of
             Bootcamp structure learning various programming languages.
             <br />
             <br />
