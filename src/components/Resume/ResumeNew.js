@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf1 from "../../Assets/../Assets/HarshadaJagtapResume.pdf";
+import pdf1 from "../../Assets/../Assets/Harshada_Jagtap_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLinkHarshada =
-  "https://raw.githubusercontent.com/harshadajagtap25/portfolio/master/src/Assets/HarshadaJagtapResume.pdf";
+  "https://github.com/harshadajagtap25/Portfolio/blob/master/src/Assets/Harshada_Jagtap_Resume.pdf";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -34,7 +34,10 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLinkHarshada} className="d-flex justify-content-center">
+          <Document
+            file={resumeLinkHarshada}
+            className="d-flex justify-content-center"
+          >
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
