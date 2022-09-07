@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://jagtap-harshada25.netlify.app/" target="_blank">harshada-jagtap</a>
+  <a href="https://portfolio-woad-zeta-50.vercel.app/ target="_blank">harshada-jagtap</a>
 </h2>
 <div align="center">
   <!-- <img alt="Demo" src="./Images/readme-img1.png" /> -->
