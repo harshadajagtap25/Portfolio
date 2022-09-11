@@ -11,8 +11,7 @@ function ProjectCards(props) {
         variant="top"
         src={props.imgPath}
         alt="card-img"
-        height="270px"
-        width="350px"
+        height="250px"
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -20,9 +19,7 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Card.Title>Tech Used</Card.Title>
-        <Card.Text style={{ textAlign: "center" }}>
-          {props.tech}
-        </Card.Text>
+        <Card.Text style={{ textAlign: "center" }}>{props.tech}</Card.Text>
         <Col>
           <Button
             className="project_buttons"
