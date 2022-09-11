@@ -13,22 +13,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Full Stack Web developer with ability to learn and collaborate in
+              Full-Stack Web Developer capable of learning and collaborating in
               rapidly changing environments and compositions.
               <br />
-              Developed <b className="purple"> 10+</b> websites from scratch at
-              Masai School using{" "}
+              At Masai School, I created <b className="purple"> 10+</b> websites
+              from scratch using{" "}
               <b className="purple">
-                Javascript, Node.Js, React.Js, MongoDB, Express, HTML5, and CSS3
+                JavaScript, Node.Js, React.Js, MongoDB, Express, HTML5, and CSS3
               </b>{" "}
-              .
-              <br />
+              . <br />
               <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img  src={myImg} className="img-fluid avatarImg" alt="avatar" />
+              <img src={myImg} className="img-fluid avatarImg" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

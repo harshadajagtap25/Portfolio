@@ -24,8 +24,8 @@ function Projects() {
               imgPath={orbitz}
               isBlog={true}
               title="Orbitz Clone"
-              description="A web application to book your trips where you can also rent a car, 
-              choose a mode of travel, reserve your stay prior."
+              description="A web application to book your trips where you can also rent a car, choose a mode of travel, and reserve your stay in advance."
+              tech="HTML5, CSS3, JavaScript"
               gitlink="https://github.com/harshadajagtap25/Orbitz"
               demolink="https://orbitz-clone-1.netlify.app/"
             />
@@ -35,7 +35,9 @@ function Projects() {
               imgPath={pepperfry}
               isBlog={true}
               title="Pepper Fry Clone"
-              description="A web application to buy furniture and home decor"
+              description="A web application to buy furniture and home decor. It has 
+              functionalities like logging in, registering, searching for home decor, and placing order for a particular item."
+              tech="HTML5, CSS3, JavaScript, JS6, Local Storage"
               gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
               demolink="https://pepper-fry-clone.vercel.app/"
             />
@@ -46,7 +48,9 @@ function Projects() {
               imgPath={lumen}
               isBlog={true}
               title="Lumen5 Clone"
-              description="A web application to convert blog, text to video content."
+              description="A web application to convert blog, text to video. 
+              It has powerful A.I. to help you create professional video content in minutes."
+              tech="ReactJS, HTML5, JS6, JavaScript, Chakra UI, CSS3"
               gitlink="https://github.com/harshadajagtap25/Lumen5-Clone"
               demolink="https://lumen5clone8888.netlify.app/"
             />
@@ -58,6 +62,7 @@ function Projects() {
               title="Timecamp Clone"
               description="It is a time tracking software to invoice the employees's 
               work based on an hourly rate, measuring the work effectiveness and project management."
+              tech="ReactJS, JS6, JavaScript, Chakra UI, CSS3, React-Router-Dom"
               gitlink="https://github.com/harshadajagtap25/Timecamp-Clone"
               demolink="https://clone-of-timecamp.vercel.app/"
             />
