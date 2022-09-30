@@ -356,10 +356,10 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 60px !important;
+  height: 60px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
+  font-size: 1.8em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
@@ -393,8 +393,8 @@ button:focus {
 
 .social-icons {
   display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .icon-colour {
@@ -405,6 +405,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
+  text-align: left !important;
   align-content: flex-end;
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
