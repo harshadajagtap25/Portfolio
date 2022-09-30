@@ -13,6 +13,15 @@
   }
 }
 
+@media only screen and (min-device-width: 412px) and (max-device-width: 915px) and (orientation: landscape) {
+  .progress-res {
+    width: 200px; 
+  }
+  .container-res {
+    width: 100% !important;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
