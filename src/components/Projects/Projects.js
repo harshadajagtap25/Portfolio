@@ -6,6 +6,7 @@ import pepperfry from "../../Assets/Projects/PepperfryHeader.png";
 import orbitz from "../../Assets/Projects/OrbitzHeader.png";
 import lumen from "../../Assets/Projects/Lumen5Homepage.png";
 import timecamp from "../../Assets/Projects/TimecampHomepage.png";
+import clockify from "../../Assets/Projects/ClockifyHomepage.png";
 
 function Projects() {
   return (
@@ -65,6 +66,19 @@ function Projects() {
               tech="ReactJS, JS6, JavaScript, Chakra UI, CSS3, React-Router-Dom"
               gitlink="https://github.com/harshadajagtap25/Timecamp-Clone"
               demolink="https://clone-of-timecamp.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clockify}
+              isBlog={true}
+              title="Clockify Clone"
+              description="The most popular free time tracker for teams. 
+              Time tracking software used by millions. Clockify is a time tracker and timesheet app 
+              that lets you track work hours across projects. Unlimited users, free forever."
+              tech="ReactJS, JS6, JavaScript, Chakra UI, CSS3, React-Router-Dom, MongoDB, NodeJs, ExpressJs, "
+              gitlink="https://github.com/harshadajagtap25/Clockify-Clone"
+              demolink="https://clockify-clone-masai.netlify.app/"
             />
           </Col>
         </Row>
