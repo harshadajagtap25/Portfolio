@@ -8,9 +8,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillContacts,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { Link as SLink, Element } from "react-scroll";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -32,6 +34,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+     style={{ width:"100%"}}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
@@ -49,44 +52,67 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
+            <SLink to="home" smooth={true} duration={500}>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                </Nav.Link>
+              </Nav.Item>
+            </SLink>
+            <SLink to="about" smooth={true} duration={500}>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/about"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                </Nav.Link>
+              </Nav.Item>
+            </SLink>
+            <SLink to="project" smooth={true} duration={500}>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/project"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineFundProjectionScreen
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Projects
+                </Nav.Link>
+              </Nav.Item>
+            </SLink>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
+            {/*RESEUME */}
+            <SLink to="resume" smooth={true} duration={500}>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/resume"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                </Nav.Link>
+              </Nav.Item>
+            </SLink>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
+            {/* Contact  */}
+            <SLink to="contact" smooth={true} duration={500}>
+              <Nav.Item>
+                <Nav.Link 
+                 as={Link}
+                 to="/contact"
+                onClick={() => updateExpanded(false)}>
+                  <AiFillContacts style={{ marginBottom: "2px" }} /> Contact Me
+                </Nav.Link>
+              </Nav.Item>
+            </SLink>
 
             <Nav.Item>
               <Nav.Link
