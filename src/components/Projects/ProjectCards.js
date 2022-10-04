@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 function ProjectCards(props) {
   return (
@@ -14,11 +14,11 @@ function ProjectCards(props) {
         height="250px"
       />
       <Card.Body>
-        <Card.Title class="purple" style={{fontSize:"23px"}} >{props.title}</Card.Title>
+        <Card.Title className="purple" style={{fontSize:"23px"}} >{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Card.Title class="purple" style={{fontSize:"23px"}}>Tech Used</Card.Title>
+        <Card.Title className="purple" style={{fontSize:"23px"}}>Tech Used</Card.Title>
         <Card.Text  style={{ textAlign: "center", fontWeight:"500" }}>{props.tech }</Card.Text>
         <Col>
           <Button
