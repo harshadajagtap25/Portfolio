@@ -13,7 +13,7 @@ function Footer() {
             href="https://github.com/harshadajagtap25"
             target="_blank"
             rel="noreferrer"
-            className="icon-colour  home-social-icons"
+            className="icon-colour  footer-icons"
           >
             <AiFillGithub />
           </a>
@@ -24,7 +24,7 @@ function Footer() {
             href="https://www.linkedin.com/in/harshada-jagtap-88334a192/"
             target="_blank"
             rel="noreferrer"
-            className="icon-colour  home-social-icons"
+            className="icon-colour  footer-icons"
           >
             <FaLinkedinIn />
           </a>
@@ -34,7 +34,7 @@ function Footer() {
             href="https://www.instagram.com/_harshu.jagtap/?hl=en"
             target="_blank"
             rel="noreferrer"
-            className="icon-colour home-social-icons"
+            className="icon-colour footer-icons"
           >
             <AiFillInstagram />
           </a>
@@ -44,7 +44,7 @@ function Footer() {
             href="https://medium.com/@harshadajagtap199725"
             target="_blank"
             rel="noreferrer"
-            className="icon-colour home-social-icons"
+            className="icon-colour footer-icons"
           >
             <FaMedium />
           </a>

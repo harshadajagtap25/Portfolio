@@ -438,11 +438,15 @@ button:focus {
   margin-bottom: 0.5em !important;
 }
 .footer-icons {
-  margin-top: 0.5em !important;
+  margin-top: 0.8em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
   width: 30px !important;
   height: 30px !important;
+}
+.contact-container{
+  margin-top: 100px !important;
+  height: 70vh;
 }
 
 .blockquote-footer {
