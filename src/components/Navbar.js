@@ -52,7 +52,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <SLink to="home" smooth={true} duration={500}>
+            {/* <SLink to="home" smooth={true} duration={500}> */}
               <Nav.Item>
                 <Nav.Link
                   as={Link}
@@ -62,8 +62,8 @@ function NavBar() {
                   <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
                 </Nav.Link>
               </Nav.Item>
-            </SLink>
-            <SLink to="about" smooth={true} duration={500}>
+            {/* </SLink> */}
+            {/* <SLink to="about" smooth={true} duration={500}> */}
               <Nav.Item>
                 <Nav.Link
                   as={Link}
@@ -73,8 +73,8 @@ function NavBar() {
                   <AiOutlineUser style={{ marginBottom: "2px" }} /> About
                 </Nav.Link>
               </Nav.Item>
-            </SLink>
-            <SLink to="project" smooth={true} duration={500}>
+            {/* </SLink> */}
+            {/* <SLink to="project" smooth={true} duration={500}> */}
               <Nav.Item>
                 <Nav.Link
                   as={Link}
@@ -87,10 +87,10 @@ function NavBar() {
                   Projects
                 </Nav.Link>
               </Nav.Item>
-            </SLink>
+            {/* </SLink> */}
 
             {/*RESEUME */}
-            <SLink to="resume" smooth={true} duration={500}>
+            {/* <SLink to="resume" smooth={true} duration={500}> */}
               <Nav.Item>
                 <Nav.Link
                   as={Link}
@@ -100,10 +100,10 @@ function NavBar() {
                   <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
                 </Nav.Link>
               </Nav.Item>
-            </SLink>
+            {/* </SLink> */}
 
             {/* Contact  */}
-            <SLink to="contact" smooth={true} duration={500}>
+            {/* <SLink to="contact" smooth={true} duration={500}> */}
               <Nav.Item>
                 <Nav.Link 
                  as={Link}
@@ -112,7 +112,7 @@ function NavBar() {
                   <AiFillContacts style={{ marginBottom: "2px" }} /> Contact Me
                 </Nav.Link>
               </Nav.Item>
-            </SLink>
+            {/* </SLink> */}
 
             <Nav.Item>
               <Nav.Link
