@@ -444,7 +444,7 @@ button:focus {
   width: 30px !important;
   height: 30px !important;
 }
-.contact-container{
+.contact-container {
   margin-top: 100px !important;
   height: 70vh;
 }
@@ -733,4 +733,10 @@ button:focus {
   100% {
     transform: scale(1);
   }
+}
+
+.custom-tooltip {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: navajowhite;
 }

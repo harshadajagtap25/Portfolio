@@ -14,22 +14,30 @@ function ProjectCards(props) {
         height="250px"
       />
       <Card.Body>
-        <Card.Title className="purple" style={{fontSize:"23px"}} >{props.title}</Card.Title>
+        <Card.Title className="purple" style={{ fontSize: "23px" }}>
+          {props.title}
+        </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Card.Title className="purple" style={{fontSize:"23px"}}>Tech Used</Card.Title>
-        <Card.Text  style={{ textAlign: "center", fontWeight:"500" }}>{props.tech }</Card.Text>
+        <Card.Title className="purple" style={{ fontSize: "23px" }}>
+          Tech Used
+        </Card.Title>
+        <Card.Text style={{ textAlign: "center", fontWeight: "500" }}>
+          {props.tech}
+        </Card.Text>
         <Col>
-          <Button
-            className="project_buttons"
-            variant="primary"
-            href={props.gitlink}
-            target="_blank"
-          >
-            <BiLinkExternal /> &nbsp;
-            {"Project"}
-          </Button>
+          {props.isGit && (
+            <Button
+              className="project_buttons"
+              variant="primary"
+              href={props.gitlink}
+              target="_blank"
+            >
+              <BiLinkExternal /> &nbsp;
+              {"Project"}
+            </Button>
+          )}
           <Button
             className="project_buttons"
             variant="primary"
