@@ -18,6 +18,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, Element } from "react-scroll";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -55,14 +56,15 @@ function App() {
           <Contact />
         </Element> */}
         <Routes>
-        <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-        
+
         <Footer />
       </div>
     </Router>

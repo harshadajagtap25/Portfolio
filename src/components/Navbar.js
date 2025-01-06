@@ -9,6 +9,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiFillContacts,
+  AiOutlineBulb,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -34,7 +35,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
-     style={{ width:"100%"}}
+      style={{ width: "100%" }}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
@@ -53,65 +54,71 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             {/* <SLink to="home" smooth={true} duration={500}> */}
-              <Nav.Item>
-                <Nav.Link
-                  as={Link}
-                  to="/"
-                  onClick={() => updateExpanded(false)}
-                >
-                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              </Nav.Link>
+            </Nav.Item>
             {/* </SLink> */}
             {/* <SLink to="about" smooth={true} duration={500}> */}
-              <Nav.Item>
-                <Nav.Link
-                  as={Link}
-                  to="/about"
-                  onClick={() => updateExpanded(false)}
-                >
-                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineBulb style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
             {/* </SLink> */}
             {/* <SLink to="project" smooth={true} duration={500}> */}
-              <Nav.Item>
-                <Nav.Link
-                  as={Link}
-                  to="/project"
-                  onClick={() => updateExpanded(false)}
-                >
-                  <AiOutlineFundProjectionScreen
-                    style={{ marginBottom: "2px" }}
-                  />{" "}
-                  Projects
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
             {/* </SLink> */}
 
             {/*RESEUME */}
             {/* <SLink to="resume" smooth={true} duration={500}> */}
-              <Nav.Item>
-                <Nav.Link
-                  as={Link}
-                  to="/resume"
-                  onClick={() => updateExpanded(false)}
-                >
-                  <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
             {/* </SLink> */}
 
             {/* Contact  */}
             {/* <SLink to="contact" smooth={true} duration={500}> */}
-              <Nav.Item>
-                <Nav.Link 
-                 as={Link}
-                 to="/contact"
-                onClick={() => updateExpanded(false)}>
-                  <AiFillContacts style={{ marginBottom: "2px" }} /> Contact Me
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillContacts style={{ marginBottom: "2px" }} /> Contact Me
+              </Nav.Link>
+            </Nav.Item>
             {/* </SLink> */}
 
             <Nav.Item>

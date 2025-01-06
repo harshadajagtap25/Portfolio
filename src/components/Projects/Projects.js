@@ -77,7 +77,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pepperfry}
               isBlog={true}
@@ -89,7 +89,7 @@ function Projects() {
               gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
               demolink="https://pepper-fry-clone.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
