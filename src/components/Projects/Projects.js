@@ -8,6 +8,7 @@ import lumen from "../../Assets/Projects/Lumen5Homepage.png";
 import timecamp from "../../Assets/Projects/TimecampHomepage.png";
 import clockify from "../../Assets/Projects/ClockifyHomepage.png";
 import yd from "../../Assets/Projects/YourDostSC.png";
+import weatherApp from "../../Assets/Projects/weather-app-web.png";
 
 function Projects() {
   return (
@@ -101,6 +102,19 @@ function Projects() {
               tech="HTML5, CSS3, JavaScript"
               gitlink="https://github.com/harshadajagtap25/Orbitz"
               demolink="https://orbitz-clone-1.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weatherApp}
+              isBlog={false}
+              isGit={true}
+              title="Weather App"
+              description="A simple, responsive weather dashboard built with React.js that fetches real-time weather data from OpenWeather API."
+              tech="React, JavaScript, Redux, HTML, CSS"
+              gitlink="https://github.com/harshadajagtap25/weather-dashboard"
+              demolink="https://weather-dashboard-self-beta.vercel.app/"
             />
           </Col>
         </Row>

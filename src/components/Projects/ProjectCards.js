@@ -21,7 +21,7 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Card.Title className="purple" style={{ fontSize: "23px" }}>
-          Tech Used
+          Technologies Used
         </Card.Title>
         <Card.Text style={{ textAlign: "center", fontWeight: "500" }}>
           {props.tech}
