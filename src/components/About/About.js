@@ -33,7 +33,7 @@ function About() {
           </Col>
         </Row>
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );
