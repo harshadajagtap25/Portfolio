@@ -8,13 +8,6 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            {/* Hi everyone. I am <span className="purple">Harshada Jagtap </span>
-            <span className="purple"> Maharashtra, India</span>. I have pursued
-            computer engineering. I was always excited about building a career
-            in coding, so I always tried to learn programming languages. During
-            my journey at Masai School, I worked through 1000+ hours on the
-            Bootcamp structure, learning various programming languages and
-            creating different projects. */}
             Hi everyone! I am <span className="purple">Harshada Jagtap</span>{" "}
             from Maharashtra, India. I hold a degree in Computer Engineering and
             have over two years of professional experience as a Software

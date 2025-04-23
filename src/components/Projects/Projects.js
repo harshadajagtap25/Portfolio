@@ -9,6 +9,7 @@ import timecamp from "../../Assets/Projects/TimecampHomepage.png";
 import clockify from "../../Assets/Projects/ClockifyHomepage.png";
 import yd from "../../Assets/Projects/YourDostSC.png";
 import weatherApp from "../../Assets/Projects/weather-app-web.png";
+import recipeApp from "../../Assets/Projects/recipeappSC.png";
 
 function Projects() {
   return (
@@ -22,7 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={yd}
               isBlog={false}
@@ -33,9 +34,35 @@ function Projects() {
               gitlink=""
               demolink="https://yourdost.com"
             />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={recipeApp}
+              isBlog={false}
+              isGit={true}
+              title="What’sInMyFridge App"
+              description="FridgeRecipe, a smart recipe recommendation web app that suggests meals based on fridge inventory to reduce food waste. Developed with smart ingredient-based suggestions, JWT-auth, and a custom fridge-prioritized matching algorithm using React, Redux, Node.js, and MongoDB."
+              tech="React, JavaScript, Redux, HTML, CSS"
+              gitlink="https://github.com/harshadajagtap25/recipe-app"
+              demolink="https://fridge-recipe-app.vercel.app/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weatherApp}
+              isBlog={false}
+              isGit={true}
+              title="Weather App"
+              description="A simple, responsive weather dashboard built with React.js that fetches real-time weather data from OpenWeather API."
+              tech="React, JavaScript, Redux, HTML, CSS"
+              gitlink="https://github.com/harshadajagtap25/weather-dashboard"
+              demolink="https://weather-dashboard-self-beta.vercel.app/"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={clockify}
               isBlog={true}
@@ -78,7 +105,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pepperfry}
               isBlog={true}
@@ -90,7 +117,7 @@ function Projects() {
               gitlink="https://github.com/harshadajagtap25/Pepper-Fry-Clone"
               demolink="https://pepper-fry-clone.vercel.app/"
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -103,20 +130,7 @@ function Projects() {
               gitlink="https://github.com/harshadajagtap25/Orbitz"
               demolink="https://orbitz-clone-1.netlify.app/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weatherApp}
-              isBlog={false}
-              isGit={true}
-              title="Weather App"
-              description="A simple, responsive weather dashboard built with React.js that fetches real-time weather data from OpenWeather API."
-              tech="React, JavaScript, Redux, HTML, CSS"
-              gitlink="https://github.com/harshadajagtap25/weather-dashboard"
-              demolink="https://weather-dashboard-self-beta.vercel.app/"
-            />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

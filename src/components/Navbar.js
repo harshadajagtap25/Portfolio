@@ -10,6 +10,12 @@ import {
   AiOutlineUser,
   AiFillContacts,
   AiOutlineBulb,
+  AiOutlineSolution,
+  AiOutlineExperiment,
+  AiOutlineSchedule,
+  AiOutlineTeam,
+  AiOutlineStock,
+  AiOutlineTrophy,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -51,16 +57,15 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            {/* <SLink to="home" smooth={true} duration={500}> */}
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-            {/* </SLink> */}
-            {/* <SLink to="about" smooth={true} duration={500}> */}
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -70,17 +75,17 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/skills"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineBulb style={{ marginBottom: "2px" }} /> Skills
+                <AiOutlineTrophy style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
-            {/* </SLink> */}
-            {/* <SLink to="project" smooth={true} duration={500}> */}
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -93,10 +98,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            {/* </SLink> */}
 
-            {/*RESEUME */}
-            {/* <SLink to="resume" smooth={true} duration={500}> */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineBulb style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -106,10 +118,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-            {/* </SLink> */}
 
-            {/* Contact  */}
-            {/* <SLink to="contact" smooth={true} duration={500}> */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -117,17 +126,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiFillContacts style={{ marginBottom: "2px" }} /> Contact Me
-              </Nav.Link>
-            </Nav.Item>
-            {/* </SLink> */}
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://medium.com/@harshadajagtap199725"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
           </Nav>
